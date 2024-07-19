@@ -1,0 +1,108 @@
+{
+  "unidades": [
+    {
+      "id": "1",
+      "nome": "Santa Clara",
+      "descricao": "A Clínica Santa Maria é uma unidade de saúde de médio porte, conhecida pelo atendimento ambulatorial e consultas médicas em diversas especialidades.",
+      "localizacao": "São Paulo - Brasil",
+      "turnos": [
+        {
+          "id": 1,
+          "disponivel": true,
+          "dia": "25/07/2024",
+          "horarioInicio": "08:00",
+          "horarioFim": "16:00",
+          "descricao": "Turno da manhã"
+        },
+        {
+          "id": 2,
+          "disponivel": false,
+          "dia": "27/07/2024",
+          "horarioInicio": "00:00",
+          "horarioFim": "06:00",
+          "descricao": "Turno da noite"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "nome": "Dom Pedro",
+      "descricao": "O Hospital São João é um dos maiores e mais modernos hospitais da região. Com uma infraestrutura de ponta e uma equipe altamente qualificada, oferece uma ampla gama de serviços médicos, incluindo emergências, cirurgias complexas, cuidados intensivos e tratamentos especializados.",
+      "localizacao": "Lisboa - Portugal",
+      "turnos": [
+        {
+          "id": 1,
+          "disponivel": false,
+          "dia": "20/07/2024",
+          "horarioInicio": "08:00",
+          "horarioFim": "16:00",
+          "descricao": "Turno da manhã"
+        },
+        {
+          "id": 2,
+          "disponivel": true,
+          "dia": "21/07/2024",
+          "horarioInicio": "00:00",
+          "horarioFim": "06:00",
+          "descricao": "Turno da noite"
+        },
+        {
+          "id": 3,
+          "disponivel": true,
+          "dia": "30/08/2024",
+          "horarioInicio": "14:00",
+          "horarioFim": "23:00",
+          "descricao": "Turno da tarde"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "nome": "Maria Madalena",
+      "descricao": "A Unidade Maria Madelena é uma unidade pública de atenção primária à saúde, que oferece serviços básicos como consultas médicas, odontológicas, vacinação, acompanhamento pré-natal e programas de saúde da família.",
+      "localizacao": "Curitiba - Brasil",
+      "turnos": [
+        {
+          "id": 1,
+          "disponivel": true,
+          "dia": "08/08/2024",
+          "horarioInicio": "08:00",
+          "horarioFim": "16:00",
+          "descricao": "Turno da manhã"
+        },
+        {
+          "id": 2,
+          "disponivel": true,
+          "dia": "09/08/2024",
+          "horarioInicio": "00:00",
+          "horarioFim": "06:00",
+          "descricao": "Turno da noite"
+        },
+        {
+          "id": 3,
+          "disponivel": true,
+          "dia": "10/08/2024",
+          "horarioInicio": "14:00",
+          "horarioFim": "23:00",
+          "descricao": "Turno da tarde"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "nome": "Erasto",
+      "descricao": "O Hospital Erasto é especializado em atendimento pediátrico, com foco em cardiologia infantil.",
+      "localizacao": "Rio de Janeiro - Brasil",
+      "turnos": [
+        {
+          "id": 1,
+          "disponivel": true,
+          "dia": "25/07/2024",
+          "horarioInicio": "08:00",
+          "horarioFim": "16:00",
+          "descricao": "Turno da manhã"
+        }
+      ]
+    }
+  ]
+}
