@@ -1,0 +1,18 @@
+img {
+  width: 500px;
+}
+
+.banner {
+  display: grid;
+  width: 80%;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  box-shadow: 0 2px 8px 0 #0000001f;
+  margin-inline: auto;
+  column-gap: 24px;
+}
+
+.bannerText {
+  padding: 24px;
+  font-size: 24px;
+}
