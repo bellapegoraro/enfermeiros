@@ -5,9 +5,11 @@ import Unities from "./components/Unities/Unities";
 import Unity from "./components/Unity";
 import Footer from "./components/Footer";
 
+import "./index.css";
+
 function App() {
   return (
-    <>
+    <div className="app">
       <Navbar />
       <Routes>
         <Route
@@ -22,7 +24,7 @@ function App() {
         <Route path="/unidade/:id" element={<Unity />} />
       </Routes>
       <Footer />
-    </>
+    </div>
   );
 }
 
