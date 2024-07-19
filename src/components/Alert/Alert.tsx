@@ -13,7 +13,7 @@ function Alert({ open, setOpenAlert }: TAlert): JSX.Element {
     if (open) {
       setTimeout(() => {
         setClassName("alert open");
-      }, 1000);
+      }, 500);
     }
 
     setTimeout(() => {
