@@ -1,0 +1,14 @@
+.alert {
+  position: absolute;
+  left: 43%;
+  padding: 24px;
+  background-color: #37b7c3;
+  border-radius: 8px;
+  margin-top: 24px;
+  transition: 0.4s ease;
+  opacity: 0;
+}
+
+.open {
+  opacity: 1;
+}
